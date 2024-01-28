@@ -48,7 +48,8 @@
         display: flex;
       }
       .subContainer1 {
-        width: 50%;
+        /* border:1px solid black; */
+        width: 80%;
       }
       .subContainer2 {
         width: 50%;
@@ -60,6 +61,11 @@
       }
       h1 {
         font-size: 20vh;
+      }
+      .subContainer1 video {
+        width:100%;
+        height: 100%;
+        object-fit: cover;
       }
     </style>
   </head>
@@ -74,7 +80,9 @@
     </nav>
 
     <div class="main-container">
-      <div class="subContainer1"></div>
+      <div class="subContainer1">
+        <video src="v1.mp4" autoplay muted loop></video>
+      </div>
       <div class="subContainer2">
         <h1>Divine Coding school</h1>
       </div>
