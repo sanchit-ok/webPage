@@ -1,0 +1,83 @@
+:root {
+    --Fbg:#f5e41b;
+}
+
+* {
+    margin: 0;padding: 0;list-style-type: none;box-sizing:border-box;
+}
+body {
+    width:100%;
+    min-height:100vh;
+}
+html {
+    scroll-behavior:smooth;
+}
+.page1,.page2,.page3 {
+    width:100%;
+    height:100vh;
+}
+.loader {
+    width:100%;
+    height:100vh;
+    background: black;
+    display:flex;
+    position:fixed;
+    align-items: center;
+    justify-content: center;
+    z-index:99;
+}
+
+.loader h1 {
+    color:white;
+    text-align: center;
+    font-size:7vw;
+    text-align: center;
+    text-transform:uppercase;
+    line-height:12vh;
+    font-family:"freight big pro";
+    font-weight:50;
+    position:relative;
+    letter-spacing:3px;
+    z-index:9;
+}
+.yellow1 {
+    position:absolute;
+    background:var(--Fbg);
+    width:100%;
+    height:100%;
+    z-index:8;
+}
+.yellow2 {
+    position:absolute;
+    background:var(--Fbg);
+    width:100%;
+    height:100%;
+    z-index:7;
+}
+.loader video {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    position:absolute;
+    z-index:6;
+}
+/* * ==========page1 =============== */
+.main-container .page1{
+    background:var(--Fbg);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.page1 h1 {
+    font-size:7vw;
+    text-align: center;
+    text-transform: uppercase;
+    line-height:12vh;
+    font-family:"freight big pro";
+    font-weight:50;
+    letter-spacing:3px;
+    
+}
+.page2{
+    background: black;
+}
