@@ -61,6 +61,12 @@ html {
     position:absolute;
     z-index:6;
 }
+nav {
+    width:100%;
+    position:absolute;
+    z-index:99;
+    padding:5vh 10vh;
+}
 /* * ==========page1 =============== */
 .main-container .page1{
     background:var(--Fbg);
